@@ -10,7 +10,6 @@ import static org.apache.commons.lang3.StringUtils.*;
 @Service
 public class ValidatorService {
 
-
     public String validateName(String name) {
         if (!isAlpha(name)) {
             throw new IncorrectNameException();

@@ -16,7 +16,6 @@ public class Employee {
 
     private final double salary;
 
-
     public Employee(String name,
                     String surname,
                     int department,
